@@ -1,0 +1,28 @@
+.container {
+    margin: auto;
+    max-width: 500px;
+    font-family: sans-serif;
+  }
+
+  @counter-style pawsandcat {
+    system: cyclic;
+    symbols: "\01F43E";
+    suffix: " ";
+  }
+
+  .heading {
+    color: rebeccapurple;
+  }
+  .nav-links {
+    display: flex;
+    list-style-type: pawsandcat;
+    padding-left: 0;
+  }
+  .nav-link-item {
+    padding-right: 2rem;
+  }
+  .nav-link-text {
+    color: #37306B;
+  }
+
+ 
