@@ -30,10 +30,22 @@ body {
 
 .nav-link-item {
   padding-right: 2rem;
-  background-color: #CBE4DE;
+  background-color: #FFEEBB;
 }
 
 .nav-link-text {
   color: #116D6E;
-  background-color: #BACDDB;
+  font-style: normal;
+  font-weight: bold;
+  background-color: #FFEEBB;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #84A7A1;
+  color: white;
+  text-align: center;
 }
